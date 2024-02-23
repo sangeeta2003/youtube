@@ -2,7 +2,7 @@
 
 function VideoCard(props:any) {
   return (
-    <div>
+    <div className="p-3">
         <img src={props.image} alt="photo" className="rounded-xl"/>
         <div className="grid grid-cols-12 pt-2  ">
 <div className="col-span-1">
