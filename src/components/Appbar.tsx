@@ -1,4 +1,4 @@
-
+import Searchbar from './Searchbar'
 function Appbar() {
   return (
     <div className=" flex justify-between">
@@ -6,7 +6,7 @@ function Appbar() {
     Youtube
 </div>
 <div>
-Searchbar
+<Searchbar/>
 </div>
 <div>
     Sign in
